@@ -1,0 +1,22 @@
+.collapsible {
+    border: 1px solid red;
+    color: red;
+}
+
+.collapsible.collapsed {
+    border: 1px solid blue;
+    color: blue;
+}
+
+.collapsible :first-child {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.collapsible.collapsed :first-child {
+    color: blue;
+}
+
+.collapsible :nth-child(2) {
+    background-color: aquamarine;
+}
